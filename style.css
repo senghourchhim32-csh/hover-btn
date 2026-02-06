@@ -1,0 +1,26 @@
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  background-color: #fefefe;
+  color: black;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 25px;
+  margin-top: 20%;
+  box-shadow:
+    6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+}
+.btn:hover {
+  transition: 0.5s ease;
+  background-color: #b4a2a2;
+  box-shadow:
+    6px 6px 12px #464141,
+    -6px -6px 12px #ffffff;
+}
